@@ -9,17 +9,17 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : ♠️ Retrouvez les clubs de poker à Paris et toutes les informations utiles ♦️ Prochainement la liste des tournois
+app_description                           : ♠️ Trouvez facilement les meilleurs tournois de poker live en France! ♦️
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Karim M.
-your_link                                 : https://www.linkedin.com/in/karimmortabit/
-your_city                                 : Paris
-email_address                             : karim.mortabit@gmail.com
+# your_name                                 : Karim M.
+# your_link                                 : https://www.linkedin.com/in/karimmortabit/
+# your_city                                 : Paris
+# email_address                             : karim.mortabit@gmail.com
 facebook_username                         : Action-Lapplication-poker-à-Paris-327962901432885
 # instagram_username                        : ebaehr
 # twitter_username                          : ebaehr
@@ -31,24 +31,24 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : La liste mise à jour de tous les clubs de la capitale
-    description                           : Retrouvez tous les clubs ouverts (verts) ou en ouverture prochaine (rouge)
-    fontawesome_icon_name                 : clipboard check
-
-  - title                                 : Soyez prévenus des nouvelles ouvertures
-    description                           : Activez les notifications et soyez les premiers prevenus de l'ouverture d'un club!
-    fontawesome_icon_name                 : bell
+  # - title                                 : La liste mise à jour de tous les clubs de la capitale
+  #   description                           : Retrouvez tous les clubs ouverts (verts) ou en ouverture prochaine (rouge)
+  #   fontawesome_icon_name                 : clipboard check
+  #
+  # - title                                 : Soyez prévenus des nouvelles ouvertures
+  #   description                           : Activez les notifications et soyez les premiers prevenus de l'ouverture d'un club!
+  #   fontawesome_icon_name                 : bell
 
   - title                                 : Tournois
-    description                           : La liste des tournois arrive bientôt!
+    description                           : La liste des meilleurs tournois dans toute la France!
     fontawesome_icon_name                 : trophy
 
   - title                                 : Toutes les informations pratiques
-    description                           : Vous pouvez consulter les horaires et la localisation de chaque club
+    description                           : Date du tournoi, tapis de départ, niveaux de blinds...
     fontawesome_icon_name                 : clock
 
-  - title                                 : Contactez les clubs
-    description                           : Numéros de téléphones et pages facebook
+  - title                                 : Contactez les casinos
+    description                           : Numéros de téléphones pour avoir plus d'informations
     fontawesome_icon_name                 : phone
 
   # - title                                 : Feature List
